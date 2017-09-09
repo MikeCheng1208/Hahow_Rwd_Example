@@ -1,0 +1,161 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html,body{ 
+	font-family: "Arial", "Helvetica", "sans-serif";
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+}
+/*---------------------------------------------------------------------*/
+
+#orientation{
+    /*
+        css ...
+    */
+}
+
+/*orientation: portrait   直式*/
+@media screen and  (orientation:portrait) {
+    /*
+        css ...
+    */
+}
+/*orientation: landscape  橫式*/
+@media screen and  (orientation:landscape) {
+    /*
+        css ...
+    */
+}
+/*---------------------------------------------------------------------*/
+
+#app{
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    transition: all .3s;
+}
+#app.left{
+    left: -100%;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 61px;
+    background-color: #fe5054;
+    z-index: 999;
+}
+header > a.menuopem{
+    display: block;
+    width: 61px;
+    height: 61px;
+    background-image: url("../images/Menu.png");
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 50% 50%;
+    float: left
+}
+header > h1{
+    font-size: 19px;
+    color:#fff;
+    line-height: 61px;
+}
+article{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 123px;
+}
+article > img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 61px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    z-index: 999;
+    transition: all .3s;
+}
+footer.left{
+    left: -100%;
+}
+footer > a{
+    display: block;
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+footer > a > img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#menu{
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 9900;
+    transition: all .3s;
+    border:5px solid #fe5054;
+}
+#menu.open{
+    left: 0%;
+}
+#menu > div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu > div > ul{
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+#menu > div > ul > li{
+    display: block;
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+#menu > div > ul > li > a{
+    transition: all .3s;
+    line-height: 40px;
+    padding: 0 30px;
+    text-decoration: none;
+    color: #fe5054;
+    font-size: 18px;
+}
+#menu > div > ul > li > a:hover{
+    font-size: 26px;
+}
+a#close_btn{
+    position: absolute;
+    top: 20px;
+    right:20px;
+    display: block;
+    width: 22px;
+    height: 22px;
+}

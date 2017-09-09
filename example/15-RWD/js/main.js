@@ -1,0 +1,9 @@
+$(function(){
+	$("#moblie_menu").on("click",function(){
+		if($("header").hasClass("openMenu")){
+			$("header").removeClass("openMenu");
+		}else{
+			$("header").addClass("openMenu");
+		}
+	})
+})

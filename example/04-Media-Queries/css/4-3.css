@@ -1,0 +1,428 @@
+@import url("reset.css");
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,span,p,a,input,button,div{
+	font-family: "Microsoft JhengHei","Heiti TC","sans-serif";
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+   -webkit-overflow-scrolling: touch;  
+}
+/*------------------------------------------------------*/
+#app{
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	padding-top: 69px;
+}
+header{
+	width: 1062px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+header > h1{
+	display: block;
+	width: 119px;
+	height: 23px;
+	background-image: url("../images/img/logo.png");
+	float: left;
+}
+header > ul{
+	display: block;
+	float: right;
+}
+header > ul > li{
+	cursor: pointer;
+	display: block;
+	float: left;
+	padding: 0 30px;
+	letter-spacing: 2px;
+	color: #626262;
+}
+header > ul > li:last-child{
+	padding: 0 0;
+}
+/*------------------------------------------------------*/
+.masterVision{
+	width: 1062px;
+	height: auto;
+	overflow: hidden;
+	margin: 72px auto 0 auto;
+}
+.masterVision > img{
+	width: 100%;
+	height: auto;
+}
+/*------------------------------------------------------*/
+article{
+	width: 899px;
+	height: auto;
+	overflow: hidden;
+	margin: 97px auto 0 auto;
+}
+article > span{
+	color: #b4ad9e;
+	font-size: 14px;
+}
+article > h1{
+	color: #626262;
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 37px;
+}
+article > p{
+	color: #626262;
+	font-size: 14px;
+	line-height: 30px;
+	padding-bottom: 30px;
+}
+/*------------------------------------------------------*/
+.pic{
+	width: 899px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto 61px auto;
+}
+.pic > img{
+	width: 100%;
+	height: auto;
+}
+/*------------------------------------------------------*/
+.oblique{
+	width: 899px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto 0 auto;
+}
+.oblique > p{
+	font-size: 14px;
+	color: #626262;
+	line-height: 25px;
+	padding: 0 20px;
+	font-style: oblique;
+}
+/*------------------------------------------------------*/
+section{
+	width: 899px;
+	height: auto;
+	overflow: hidden;
+	margin: 40px auto 0 auto;
+}
+section > p{
+	color: #626262;
+	font-size: 14px;
+	line-height: 30px;
+	padding-bottom: 30px;
+}
+/*------------------------------------------------------*/
+.shareBox{
+	width: 899px;
+	height: auto;
+	overflow: hidden;
+	margin: 118px auto 0 auto;
+}
+.shareBox > .txt{
+	float: right;
+}
+.shareBox > .txt > p{
+	color: #b4ad9e;
+	font-size: 14px;
+	float: left;
+	padding-right: 10px;
+}
+.shareBox > .txt > ul{
+	float: left;
+}
+.shareBox > .txt > ul > li{
+	cursor: pointer;
+	float: left;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin-left: 16px;
+}
+.fb{background-image: url("../images/img/fb.png");}
+.tw{background-image: url("../images/img/tw.png");}
+.google{background-image: url("../images/img/g.png");}
+.tumblr{background-image: url("../images/img/tumblr.png");}
+.pinterest{background-image: url("../images/img/pinterest.png");}
+/*------------------------------------------------------*/
+main{
+	width: 100%;
+	height: 435px;
+	background-color: #f5f5f5;
+	margin-top: 76px;
+}
+main > .mid{
+	width: 899px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+main > .mid > h3{
+	color: #b4ad9e;
+	font-size: 14px;
+	padding-top: 68px;
+}
+main > .mid > ul{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 40px;
+
+	display: flex;
+	justify-content: space-between;
+}
+main > .mid > ul > li{
+	width: 273px;
+	height: auto;
+	overflow: hidden;
+}
+main > .mid > ul > li > img{
+	width: 100%;
+	height: auto;
+}
+main > .mid > ul > li > h4{
+	font-size: 20px;
+	color: #626262;
+	padding-top: 24px;
+}
+/*------------------------------------------------------*/
+footer {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: #f0f0f0;
+	margin-top: 34px;
+}
+footer > .midFooter{
+	width: 899px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+footer > .midFooter > a{
+	cursor: pointer;
+	color: #000000;
+	font-size: 14px;
+	float: left;	
+}
+
+footer > .midFooter > .followIcon{
+	float: right;
+}
+footer > .midFooter > .followIcon > p{
+	color: #000000;
+	font-size: 14px;
+	float: left;	
+}
+footer > .midFooter > .followIcon > ul{
+	float: left;	
+}
+footer > .midFooter > .followIcon > ul > li{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	float: left;
+	background-position: 50% 50%;
+	margin-left: 18px;
+}
+.f-fb{background-image: url("../images/img/facebook.png");}
+.f-twitter{background-image: url("../images/img/twitter.png");}
+.f-instagram{background-image: url("../images/img/instagram.png");}
+
+/*------------------------------------------------------*/
+@media screen and (max-width: 1062px) {
+	header{
+		width: 95%;
+	}
+	.masterVision{
+		width: 95%;
+	}
+	article{
+		width: 80%;
+	}
+	.pic{
+		width: 80%;
+	}
+	.oblique{
+		width: 80%;
+	}
+	section{
+		width: 80%;
+	}
+	.shareBox{
+		width: 80%;
+	}
+	main{
+		height: auto;
+		overflow: hidden;
+		padding-bottom: 76px;
+	}
+	main > .mid{
+		width: 80%;
+	}
+	main > .mid > ul > li{
+		width: 30%;
+	}
+	main > .mid > ul > li > h4{
+		font-size: 14px;
+	}
+	footer > .midFooter{
+		width: 80%;
+	}
+}
+/*------------------------------------------------------*/
+@media screen and (max-width: 700px) {
+	main{
+		height: auto;
+		overflow: hidden;
+		padding-bottom: 35px;
+	}
+	main > .mid{
+		width: 90%;
+	}
+	main > .mid > ul{
+		display: block;
+	}
+	main > .mid > ul > li{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	main > .mid > ul > li > h4{
+		font-size: 18px;
+	}
+}
+/*------------------------------------------------------*/
+@media screen and (max-width: 660px) {
+	header{
+		width: 90%;
+	}
+	header > h1{
+		float: none;
+		margin: 0 auto;
+	}
+	header > ul{
+		display: block;
+		float: none;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		margin-top: 53px;
+	}
+	header > ul > li{
+		cursor: pointer;
+		display: block;
+		text-align: center;
+		float: left;
+		padding: 0 0px;
+		letter-spacing: 1px;
+		color: #626262;
+	}
+	header > ul > li:nth-child(1){
+		width: 28%;
+	}
+	header > ul > li:nth-child(2){
+		width: 30%;
+	}
+	header > ul > li:nth-child(3){
+		width: 20%;
+	}
+	header > ul > li:nth-child(4){
+		width: 20%;
+	}
+	header > ul > li:last-child{
+		padding: 0 0;
+	}
+}
+/*------------------------------------------------------*/
+@media screen and (max-width: 414px) {
+	.masterVision{
+		width: 90%;
+	}
+	article{
+		width: 90%;
+		margin: 20px auto 0 auto;
+	}
+	article > h1{
+		color: #626262;
+		font-size: 20px;
+		padding-top: 15px;
+		padding-bottom: 20px;
+	}
+	article > p{
+		color: #626262;
+		font-size: 14px;
+		line-height: 25px;
+		padding-bottom: 30px;
+	}
+	.pic{
+		width: 90%;
+		margin: 0 auto 30px auto;
+	}
+	.oblique{
+		width: 90%;
+	}
+	section{
+		width: 90%;
+	}
+	section > p{
+		line-height: 25px;
+	}
+	.shareBox{
+		width: 90%;
+		margin: 30px auto 0 auto;
+	}
+	.shareBox{
+		display: flex;
+		justify-content: center;
+	}
+	.shareBox > .txt{
+		float: none;
+	}
+	footer > .midFooter{
+		width: 90%;
+		padding: 20px 0;
+	}
+	footer > .midFooter > a{
+		display: block;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		float: none;
+		text-align: center;	
+		margin-bottom: 20px;
+	}
+	footer > .midFooter > .followIcon{
+		float: none;
+		width: 160px;
+		height: auto;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+}
+/*------------------------------------------------------*/
+@media screen and (max-width: 320px) {
+	header > ul{
+		margin-top: 50px;
+	}
+	header > ul > li{
+		font-size: 12px;
+	}
+	.masterVision{
+		margin: 60px auto 0 auto;
+	}
+}
