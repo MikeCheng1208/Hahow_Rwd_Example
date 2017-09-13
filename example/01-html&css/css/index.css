@@ -1,0 +1,46 @@
+@import url("./reset.css");
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	background-color: #ccc;
+}
+#app{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	box-shadow: 0px 1px 2px #000;
+	margin-top: -211.5px;
+	margin-left: -157.5px;
+	width: 315px;
+	height: 423px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+#app > h1{
+	display: block;
+	width: 315px;
+	height: 75px;
+	text-align: center;
+	line-height: 75px;
+	border-bottom: 1px solid #dedede;
+	font-family: "微軟正黑體";
+	color: #5d5c58;
+	font-size: 26px;
+	margin-bottom: 11px;
+}
+#app > img{
+	display: block;
+	width: 172px;
+	height: 172px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+#app > p{
+	font-size: 16px;
+	color: #65665e;
+	padding: 28px 30px 0 30px;
+	line-height: 24px;
+	font-family: "微軟正黑體";
+}
