@@ -63,17 +63,21 @@ article > img{
 }
 /*---------------------------------------------------------------------*/
 footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
     height: auto;
     overflow: hidden;
     z-index: 999;
     transition: all .3s;
+    
+    /*
+        css...
+    */
 }
 footer.left{
-    left: -100%;
+
+    /*
+        css...
+    */
 }
 footer > a{
     display: block;
