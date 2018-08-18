@@ -1,6 +1,6 @@
 # 職人必修的 RWD 網頁入門班  Hahow_Rwd_Example
 
-課程網址： <https://hahow.in/courses/591d96d300f58c070078c4c6>
+課程網址： <https://hahow.in/cr/responsive-design>
 
 - 課程介紹
 
